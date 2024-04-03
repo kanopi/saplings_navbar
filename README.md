@@ -20,7 +20,7 @@ See: https://www.drupal.org/node/895232 for further information.
 
 ## CONFIGURATION
 
-N/A
+Once the module has been installed, update your /saplings_child/templates/overrides/page.html.twig template to use the sa-navbar pattern. 
 
 ## MAINTAINERS
 
