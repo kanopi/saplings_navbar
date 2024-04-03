@@ -1,0 +1,6 @@
+name: Saplings Navbar
+description: Creates a navbar pattern for Saplings that allows the parent to be a link and then have a dropdown indicator to access child menu items.
+package: Custom
+
+type: module
+core_version_requirement: ^10

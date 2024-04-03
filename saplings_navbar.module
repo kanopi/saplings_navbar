@@ -1,0 +1,23 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function saplings_navbar_theme() {
+    $theme['menu__main'] = [
+      'base hook' => 'menu',
+    ];
+  
+    return $theme;
+}
+
+/**
+ * Implements hook_theme_suggestions_menu_alter().
+ *
+ * Provide region based menu suggestions.
+ */
+function saplings_navbar_theme_suggestions_menu_alter(&$suggestions, array $variables) {
+  if (isset($variables['attributes']['region'])) {
+    $suggestions[] = 'menu__saplings_navbar';
+  }
+}
