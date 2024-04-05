@@ -1,0 +1,13 @@
+{
+    "name": "drupal/saplings_navbar",
+    "description": "Creates a navbar pattern for Saplings that allows the parent to be a link and then have a dropdown indicator to access child menu items.",
+    "type": "drupal-module",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Nicole Karhoff",
+            "homepage": "https://kanopi.com",
+            "role": "Maintainer"
+        }
+    ]
+}
